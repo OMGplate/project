@@ -1,0 +1,117 @@
+/* ============================================================
+   排版编辑器 · 自定义字体
+   字体文件放在同目录的 fonts\ 里。
+   注意：这些字体是拉丁/泰文/天城文/希伯来/Arabic 字体，
+        不含中文字形，中文会自动回退到系统中文字体。
+   ============================================================ */
+
+/* ============================================================
+   中文可爱字体（免费商用，来自 Google Fonts 仓库）
+   这两个带完整中文字形，中文会真的换字形
+   ============================================================ */
+
+/* 站酷快乐体 —— 圆圆胖胖，很可爱 */
+@font-face{
+  font-family:'ZCOOL KuaiLe';
+  src:url('fonts/ZCOOLKuaiLe-Regular.ttf') format('truetype');
+  font-weight:400;font-style:normal;font-display:swap;
+}
+
+/* 站酷庆科黄油体 —— 粗粗圆圆的标题体 */
+@font-face{
+  font-family:'ZCOOL QingKe HuangYou';
+  src:url('fonts/ZCOOLQingKeHuangYou-Regular.ttf') format('truetype');
+  font-weight:400;font-style:normal;font-display:swap;
+}
+
+/* Andalus（安达卢斯） */
+@font-face{
+  font-family:'Andalus';
+  src:url('fonts/andlso.ttf') format('truetype');
+  font-weight:400;font-style:normal;font-display:swap;
+}
+
+/* Angsana New（泰文风格的细衬线体） */
+@font-face{
+  font-family:'Angsana New';
+  src:url('fonts/angsa.ttf') format('truetype');
+  font-weight:400;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'Angsana New';
+  src:url('fonts/angsab.ttf') format('truetype');
+  font-weight:700;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'Angsana New';
+  src:url('fonts/angsai.ttf') format('truetype');
+  font-weight:400;font-style:italic;font-display:swap;
+}
+@font-face{
+  font-family:'Angsana New';
+  src:url('fonts/angsaz.ttf') format('truetype');
+  font-weight:700;font-style:italic;font-display:swap;
+}
+
+/* AngsanaUPC */
+@font-face{
+  font-family:'AngsanaUPC';
+  src:url('fonts/angsau.ttf') format('truetype');
+  font-weight:400;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'AngsanaUPC';
+  src:url('fonts/angsaub.ttf') format('truetype');
+  font-weight:700;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'AngsanaUPC';
+  src:url('fonts/angsaui.ttf') format('truetype');
+  font-weight:400;font-style:italic;font-display:swap;
+}
+@font-face{
+  font-family:'AngsanaUPC';
+  src:url('fonts/angsauz.ttf') format('truetype');
+  font-weight:700;font-style:italic;font-display:swap;
+}
+
+/* Aparajita（细长的轻衬线体，很适合做小标题） */
+@font-face{
+  font-family:'Aparajita';
+  src:url('fonts/aparaj.ttf') format('truetype');
+  font-weight:400;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'Aparajita';
+  src:url('fonts/aparajb.ttf') format('truetype');
+  font-weight:700;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'Aparajita';
+  src:url('fonts/aparaji.ttf') format('truetype');
+  font-weight:400;font-style:italic;font-display:swap;
+}
+@font-face{
+  font-family:'Aparajita';
+  src:url('fonts/aparajbi.ttf') format('truetype');
+  font-weight:700;font-style:italic;font-display:swap;
+}
+
+/* Arabic Typesetting */
+@font-face{
+  font-family:'Arabic Typesetting';
+  src:url('fonts/arabtype.ttf') format('truetype');
+  font-weight:400;font-style:normal;font-display:swap;
+}
+
+/* Aharoni（本身的粗体小字） */
+@font-face{
+  font-family:'Aharoni';
+  src:url('fonts/ahronbd.ttf') format('truetype');
+  font-weight:400;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'Aharoni';
+  src:url('fonts/ahronbd.ttf') format('truetype');
+  font-weight:700;font-style:normal;font-display:swap;
+}
